@@ -1,5 +1,6 @@
+import { AutoMapper } from '@nartc/automapper';
 import { Module } from '@nestjs/common';
-import { AutoMapper, AutomapperModule, InjectMapper } from 'nestjsx-automapper';
+import { AutomapperModule, InjectMapper } from 'nestjsx-automapper';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserProfile } from './models/user.profile';

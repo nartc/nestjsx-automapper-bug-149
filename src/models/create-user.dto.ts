@@ -1,4 +1,4 @@
-import { AutoMap } from 'nestjsx-automapper';
+import { AutoMap } from '@nartc/automapper';
 
 export class CreateUserDto {
   @AutoMap()

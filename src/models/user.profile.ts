@@ -1,4 +1,4 @@
-import { ProfileBase, AutoMapper } from "nestjsx-automapper";
+import { ProfileBase, AutoMapper } from "@nartc/automapper";
 import { CreateUserDto } from './create-user.dto';
 import { UserEntity } from './user.entity';
 

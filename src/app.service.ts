@@ -1,5 +1,6 @@
+import { AutoMapper } from '@nartc/automapper';
 import { Injectable } from '@nestjs/common';
-import { AutoMapper, InjectMapper } from 'nestjsx-automapper';
+import { InjectMapper } from 'nestjsx-automapper';
 import { CreateUserDto } from './models/create-user.dto';
 import { UserEntity } from './models/user.entity';
 
